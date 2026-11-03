@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Katie Lee — Frontend developer, designer, and strategist</title>
+    <meta
+      name="description"
+      content="Portfolio of Katie Lee, a front-end developer, designer, and Shopify Expert."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="/images/logo-k.svg" type="image/svg+xml" />
+  </head>
+  <body id="top">
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" data-nav>
+      <div class="wrap nav">
+        <div class="nav-cluster">
+          <nav id="primary-nav" class="nav-links" data-nav-links aria-label="Primary">
+            <a class="nav-link" href="#top">Home</a>
+            <a class="nav-link" href="#projects">Projects</a>
+            <a class="nav-link" href="#contact">Contact</a>
+          </nav>
+          <button
+            class="nav-toggle"
+            type="button"
+            data-nav-toggle
+            aria-expanded="false"
+            aria-controls="primary-nav"
+            aria-label="Open menu"
+          >
+            <span class="nav-toggle-bars" aria-hidden="true">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="hero-kicker">Katie Lee</p>
+          <h1 id="hero-title" class="hero-title" data-illuminate data-illuminate-on="dark">
+            Frontend developer, designer, and strategist.
+          </h1>
+        </div>
+        <div class="hero-portrait" data-hero-portrait>
+          <div class="hero-portrait-track" data-hero-track>
+            <img class="hero-portrait-photo" src="/images/portrait.jpg" alt="Portrait of Katie Lee" />
+            <canvas aria-hidden="true"></canvas>
+          </div>
+        </div>
+      </section>
+
+      <!-- TODO: revisit at another time; consider for phase 2.
+      <section class="personas" aria-label="Roles">
+        ...
+      </section>
+      -->
+
+      <section class="bio" aria-labelledby="bio-heading">
+        <h2 id="bio-heading" class="sr-only">About</h2>
+        <p data-illuminate data-illuminate-on="light">I'm a front-end developer, designer, and Shopify Expert who thinks beyond the code. With a background in development, design, and strategy I bring a holistic perspective to building thoughtful, high-performing digital experiences.</p>
+      </section>
+
+      <div id="projects">
+        <article class="project project--blue" data-layout="demo-left">
+          <div class="project-inner">
+            <div class="demo">
+              <h2 class="project-title" data-illuminate data-illuminate-on="dark">
+                KIIMA Dynamic Bundle Builder
+              </h2>
+              <div class="demo-desktop" aria-hidden="true"></div>
+              <div class="demo-mobile" aria-hidden="true"></div>
+            </div>
+            <div class="project-copy">
+              <div>
+                <p class="project-lead">
+                  Turning a bundle-based product offering into an intuitive subscription experience.
+                </p>
+                <p class="project-body">
+                  KIIMA needed a flexible way for customers to build personalized bundles and
+                  subscribe through Recharge. I led the UX research, interface design, and
+                  development of a custom bundle builder, allowing customers to configure their own
+                  selections before seamlessly entering Recharge's subscription workflow.
+                </p>
+              </div>
+              <ul class="tags">
+                <li class="tag">JavaScript</li>
+                <li class="tag">Recharge</li>
+                <li class="tag">Shopify Functions</li>
+                <li class="tag">Liquid</li>
+                <li class="tag">HTML</li>
+                <li class="tag">SCSS</li>
+                <li class="tag">AJAX</li>
+              </ul>
+              <a class="btn" href="#" aria-disabled="true" tabindex="-1">See project</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project project--pink" data-layout="demo-right">
+          <div class="project-inner">
+            <div class="project-copy">
+              <div>
+                <p class="project-lead">
+                  Replacing promotional limitations with a solution built around the business.
+                </p>
+                <p class="project-body">
+                  Baffin's existing third-party GWP apps limited promotional flexibility and
+                  storefront customization, particularly during high-volume campaigns like Black
+                  Friday and Cyber Monday. I designed and built a custom Shopify solution combining
+                  a Discount app extension with storefront logic, giving the team control over three
+                  promotion types: spend-based, product-based, and collection-based gifts.
+                </p>
+              </div>
+              <ul class="tags">
+                <li class="tag">JavaScript</li>
+                <li class="tag">TypeScript</li>
+                <li class="tag">Shopify Functions</li>
+                <li class="tag">Liquid</li>
+                <li class="tag">HTML</li>
+                <li class="tag">SCSS</li>
+                <li class="tag">AJAX</li>
+                <li class="tag">Shopify APIs</li>
+              </ul>
+              <a class="btn" href="#" aria-disabled="true" tabindex="-1">See project</a>
+            </div>
+            <div class="demo">
+              <h2 class="project-title" data-illuminate data-illuminate-on="dark">
+                Baffin Gift with Purchase App
+              </h2>
+              <div class="demo-desktop" aria-hidden="true"></div>
+              <div class="demo-mobile" aria-hidden="true"></div>
+            </div>
+          </div>
+        </article>
+
+        <article class="project project--lime" data-layout="demo-left">
+          <div class="project-inner">
+            <div class="demo">
+              <h2 class="project-title" data-illuminate data-illuminate-on="light">
+                Baffin Cart Refactor
+              </h2>
+              <div class="demo-desktop" aria-hidden="true"></div>
+              <div class="demo-mobile" aria-hidden="true"></div>
+            </div>
+            <div class="project-copy">
+              <div>
+                <p class="project-lead">
+                  Making a complex cart easier to maintain, extend, and scale.
+                </p>
+                <p class="project-body">
+                  As Baffin's AJAX cart grew in complexity and they were heading towards more custom
+                  app integration, I led an architectural refactor, breaking the cart into
+                  independent web components, a centralized Cart Conductor, app-specific managers,
+                  and modular AJAX templates.
+                </p>
+              </div>
+              <ul class="tags">
+                <li class="tag">JavaScript</li>
+                <li class="tag">Liquid</li>
+                <li class="tag">AJAX</li>
+                <li class="tag">Shopify APIs</li>
+                <li class="tag">Cursor</li>
+              </ul>
+              <a class="btn" href="#" aria-disabled="true" tabindex="-1">See project</a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <section class="more" aria-labelledby="more-title">
+        <div class="more-inner">
+          <h2 id="more-title" class="more-title" data-illuminate data-illuminate-on="light">
+            Would you like to see more?
+          </h2>
+          <div class="more-grid" aria-hidden="true">
+            <div class="more-card"></div>
+            <div class="more-card"></div>
+            <div class="more-card"></div>
+            <div class="more-card"></div>
+            <div class="more-card"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="contact">
+      <div class="footer-inner">
+        <div>
+          <h2 class="footer-title" data-illuminate data-illuminate-on="dark">Let’s Connect</h2>
+          <div class="socials">
+            <button class="email-copy" type="button" data-email data-eyes-trigger>
+              katie.lee9912@gmail.com
+            </button>
+            <a class="linkedin" href="#" data-eyes-trigger aria-label="LinkedIn (link coming soon)">
+              LinkedIn
+              <img src="/images/icon-arrow-out.svg" alt="" width="24" height="24" />
+            </a>
+          </div>
+        </div>
+        <div class="eyes" data-eyes>
+          <canvas aria-hidden="true"></canvas>
+        </div>
+      </div>
+      <img class="wordmark" src="/images/katie-wordmark.svg" alt="" />
+    </footer>
+
+    <!-- TODO: to revisit sound effects during phase 2.
+    <button class="volume" type="button" data-volume aria-pressed="false" aria-label="Mute sound effects">
+      <img class="icon-on" src="/images/icon-volume-on.svg" alt="" width="30" height="30" />
+      <img class="icon-off" src="/images/icon-volume.svg" alt="" width="30" height="30" />
+    </button>
+    -->
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

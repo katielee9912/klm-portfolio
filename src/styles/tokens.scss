@@ -1,0 +1,35 @@
+:root {
+  --color-black: #000000;
+  --color-ink: #2d2d32;
+  --color-char: #414141;
+  --color-muted: #6b6b70;
+  --color-heading-idle: #3a3a3e;
+  --color-white: #ffffff;
+  --color-offwhite: #f3f3f3;
+  --color-placeholder: #d9d9d9;
+  --color-placeholder-alt: #c0c0c0;
+  --color-blue: #313af6;
+  --color-blue-bright: #1d68ff;
+  --color-pink: #d31188;
+  --color-lime: #dcef5f;
+  --color-tag-yellow: #eeff00;
+  --color-tag-green: #5fff09;
+  --color-tag-blue: #0055ff;
+  --color-persona-developer: #4d7cff;
+  --color-persona-strategist: #d4e24a;
+  --color-persona-designer: #ff4ec8;
+  --color-persona-shopify: #7cff4a;
+  --font-sans: "DM Sans", system-ui, sans-serif;
+  --content-max: 1300px;
+  --gutter: 40px;
+  --radius: 16px;
+  --radius-sm: 8px;
+  --nav-height: 117px;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@media (max-width: 768px) {
+  :root {
+    --gutter: 20px;
+  }
+}
